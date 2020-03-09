@@ -1,9 +1,22 @@
 .hero-section {
-  padding: $px64 0;
+  padding: $px16 0 $px96;
 
   background-color: $grey-7;
 
   color: $white;
+
+  &__logo {
+    margin-bottom: $px16;
+
+    @include breakpoint($md) {
+      margin-bottom: $px64;
+    }
+  }
+
+  &__svg-logo {
+    width: $px64;
+    height: $px64;
+  }
 
   &__container {
     @include container;

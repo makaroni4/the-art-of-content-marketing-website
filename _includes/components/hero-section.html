@@ -1,5 +1,9 @@
 <section class="hero-section">
   <div class="hero-section__container">
+    <div class="hero-section__logo">
+      {% svg "assets/icons/logo_white.svg" class="hero-section__svg-logo" %}
+    </div>
+
     <h1 class="hero-section__headline">
       Welcome to the Art of Content Marketing!
     </h1>
@@ -9,9 +13,4 @@
     </div>
   </div>
 
-  <div class="hero-section__logo">
-    <svg class="svg-icon">
-      <use xlink:href="{{ 'assets/icons/logo_white.svg' | relative_url }}"></use>
-    </svg>
-  </div>
 </section>
