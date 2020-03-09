@@ -29,11 +29,20 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+show_excerpts: false
+
+date_format: "%b %-d, %Y"
+
+# generate social links in footer
+social_links:
+  twitter: jekyllrb
+  github:  jekyll
+
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
