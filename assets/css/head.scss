@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "vendor/normalize";
+
 @import "design-system/border_box";
 @import "design-system/breakpoint";
 @import "design-system/colors";
@@ -9,3 +11,7 @@
 @import "design-system/retina_mixin";
 @import "design-system/spacing";
 @import "design-system/typography";
+
+@import "pages/home_page";
+
+@import "components/hero_section";

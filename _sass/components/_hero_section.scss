@@ -1,0 +1,15 @@
+.hero-section {
+  padding: $px64 0;
+
+  background-color: $grey-7;
+
+  color: $white;
+
+  &__container {
+    @include container;
+  }
+
+  &__description {
+    @include font-large;
+  }
+}
