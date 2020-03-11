@@ -1,5 +1,15 @@
 .home-page {
+  background-color: $grey-0;
+
   &__container {
     @include container;
+  }
+
+  &__hero-section {
+
+  }
+
+  &__features-section {
+
   }
 }
