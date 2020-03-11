@@ -23,6 +23,8 @@
   }
 
   &__description {
+    margin-bottom: $px32;
+
     @include font-large;
   }
 }

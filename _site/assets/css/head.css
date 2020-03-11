@@ -144,6 +144,32 @@ blockquote { margin-left: 0; padding-left: 32px; border-left: 8px solid #0B69A3;
 
 @media screen and (min-width: 768px) { .hero-section__container { max-width: 960px; } }
 
-.hero-section__description { font-size: 24px; line-height: 36px; font-weight: 500; }
+.hero-section__description { margin-bottom: 32px; font-size: 24px; line-height: 36px; font-weight: 500; }
+
+.btn { display: inline-block; padding: 12px 12px 16px; border-radius: 2px; outline: none; border: 0; background-color: #2BB0ED; font-size: 17px; line-height: 1.5; font-weight: 500; line-height: 1; color: #FFF; text-decoration: none; text-align: center; cursor: pointer; }
+
+.btn:hover { background-color: #1992D4; opacity: 1; }
+
+.btn--xs { padding: 4px 8px; border-radius: 4px; font-size: 14px; line-height: 18px; font-weight: 400; line-height: 1; }
+
+.btn--sm { padding: 8px 32px 10px; border-radius: 4px; font-size: 17px; line-height: 1.5; font-weight: 500; line-height: 1; }
+
+.btn--lg { padding: 16px 64px 20px; border-radius: 4px; font-size: 24px; line-height: 36px; font-weight: 500; line-height: 1; }
+
+.btn--fat { padding: 24px; }
+
+.btn--block { display: block; }
+
+.btn--strong { font-weight: 700; }
+
+.btn--light { background-color: #035388; }
+
+.btn--grey { background-color: #323F4B; color: #616E7C; }
+
+.btn--grey:hover { background-color: #1F2933; }
+
+.btn--secondary { border: 1px solid #E4E7EB; border-radius: 2px; background-color: #FFF; color: #E4E7EB; }
+
+.btn--secondary:hover { border: 1px solid #E4E7EB; border-radius: 2px; background-color: #FFF; color: #E4E7EB; opacity: 0.7; }
 
 /*# sourceMappingURL=head.css.map */
