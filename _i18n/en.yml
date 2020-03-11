@@ -32,6 +32,7 @@ pricing_plans:
       - 3 online seminar videos
     original_price: 75
     discounted_price: 60
+    gumroad_id: TDEfh
   - name: The Complete Package
     features:
       - 40-page PDF course book
@@ -40,6 +41,7 @@ pricing_plans:
       - Online community group
     original_price: 275
     discounted_price: 200
+    gumroad_id: imJid
 faq:
   - question: Can I try the course for free?
     answer: Absolutely. The first 10 lessons and exercises are free.
