@@ -208,6 +208,32 @@ blockquote { margin-left: 0; padding-left: 32px; border-left: 8px solid #0B69A3;
 
 .about-the-course__description { margin-bottom: 32px; font-size: 24px; line-height: 36px; font-weight: 500; }
 
+.pricing__container { width: 100%; margin: 0 auto; padding: 0 16px; }
+
+@media screen and (min-width: 768px) { .pricing__container { max-width: 960px; } }
+
+.pricing__items { display: flex; justify-content: center; flex-direction: column; }
+
+@media screen and (min-width: 992px) { .pricing__items { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 24px; } }
+
+.pricing-plan { position: relative; overflow: hidden; border: 1px solid #F5F7FA; border-radius: 4px; box-shadow: 0 15px 35px 0 #F5F7FA, 0 5px 15px #F5F7FA; background-color: #E4E7EB; }
+
+.pricing-plan__body { padding: 16px; }
+
+.pricing-plan__name { padding: 24px 16px; text-align: center; font-size: 17px; line-height: 1.5; font-weight: 500; font-weight: 800; }
+
+.pricing-plan__features { padding: 0 24px; margin-bottom: 32px; }
+
+.pricing-plan__feature { display: flex; align-items: baseline; }
+
+.pricing-plan__feature:not(:last-child) { margin-bottom: 16px; }
+
+.pricing-plan__feature-icon { flex-shrink: 0; width: 16px; height: 16px; margin-right: 16px; color: #127FBF; }
+
+.pricing-plan__prices { display: flex; align-items: center; justify-content: center; margin-bottom: 32px; font-size: 24px; line-height: 36px; font-weight: 500; }
+
+.pricing-plan__original-price { margin-right: 16px; font-size: 24px; line-height: 24px; font-weight: 500; text-decoration: line-through; color: #3E4C59; }
+
 .btn { display: inline-block; padding: 12px 12px 16px; border-radius: 2px; outline: none; border: 0; background-color: #2BB0ED; font-size: 17px; line-height: 1.5; font-weight: 500; line-height: 1; color: #FFF; text-decoration: none; text-align: center; cursor: pointer; }
 
 .btn:hover { background-color: #1992D4; opacity: 1; }

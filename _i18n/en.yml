@@ -25,3 +25,18 @@ chapters:
 
   - name: Chapter 8
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at ornare ante. Aliquam viverra, erat ac sodales maximus, ligula mauris finibus ante, sed gravida arcu sapien eu lectus.
+pricing_plans:
+  - name: The Basics
+    features:
+      - 40-page PDF course book
+      - 3 online seminar videos
+    original_price: 75
+    discounted_price: 60
+  - name: The Complete Package
+    features:
+      - 40-page PDF course book
+      - 3 online seminar videos
+      - Cheatsheets and aids
+      - Online community group
+    original_price: 275
+    discounted_price: 200

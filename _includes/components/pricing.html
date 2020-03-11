@@ -1,0 +1,33 @@
+<div class="pricing">
+  <div class="pricing__container">
+    <h3 class="pricing__headline">
+      What will you get?
+    </h3>
+
+    <div class="pricing__items">
+      {% for pricing_plan in site.translations[site.lang]["pricing_plans"] %}
+        <div class="pricing__item">
+          <div class="pricing-plan">
+            <div class="pricing-plan__body">
+              <h2 class="pricing-plan__name">{{ pricing_plan["name"] }}</h2>
+
+              <ul class="pricing_plan__features">
+                {% for feature in pricing_plan["features"] %}
+                  <li class="pricing_plan__feature">
+                    {{ feature }}
+                  </li>
+                {% endfor %}
+              </ul>
+
+              <div class="pricing-plan__prices">
+                {{ pricing_plan["original_price"] }}$
+              </div>
+
+              <a class="pricing-plan__cta btn btn--block">Buy now</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

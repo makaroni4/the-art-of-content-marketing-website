@@ -1,0 +1,17 @@
+.pricing {
+  &__container {
+    @include container;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    @include breakpoint($md) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: $px24;
+    }
+  }
+}
