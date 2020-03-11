@@ -1,0 +1,19 @@
+.meet-the-author {
+  padding: $px32 0;
+
+  &__container {
+    @include container;
+  }
+
+  &__headline {
+    color: $grey-7;
+  }
+
+  &__description {
+    color: $grey-5;
+  }
+
+  @include breakpoint($md) {
+    padding: $px64 0;
+  }
+}
