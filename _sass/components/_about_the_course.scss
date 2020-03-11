@@ -1,0 +1,13 @@
+.about-the-course {
+  padding: $px16 0 $px96;
+
+  &__container {
+    @include container;
+  }
+
+  &__description {
+    margin-bottom: $px32;
+
+    @include font-large;
+  }
+}
