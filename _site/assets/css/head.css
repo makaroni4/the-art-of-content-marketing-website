@@ -114,7 +114,7 @@ html { box-sizing: border-box; }
 
 .grey-7 { color: #3E4C59; }
 
-body { font-family: 'Roboto', sans-serif; font-display: swap; font-size: 17px; line-height: 1.5; font-weight: 500; color: #E4E7EB; }
+body { font-family: 'Roboto', sans-serif; font-display: swap; font-size: 17px; line-height: 1.5; font-weight: 500; color: #3E4C59; }
 
 h1 { font-size: 44px; line-height: 56px; font-weight: 800; }
 
@@ -122,7 +122,7 @@ h2 { font-size: 32px; line-height: 36px; font-weight: 800; }
 
 h3 { font-size: 24px; line-height: 28px; font-weight: 800; }
 
-a { color: #E4E7EB; }
+a { color: #3E4C59; }
 
 a:hover { opacity: 0.6; }
 
@@ -195,6 +195,10 @@ blockquote { margin-left: 0; padding-left: 32px; border-left: 8px solid #0B69A3;
 .what-will-you-learn__icon { width: 24px; height: 24px; margin-right: 8px; position: relative; z-index: 2; }
 
 @media screen and (min-width: 992px) { .what-will-you-learn__items { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 24px; } }
+
+.course-chapters__container { width: 100%; margin: 0 auto; padding: 0 16px; }
+
+@media screen and (min-width: 768px) { .course-chapters__container { max-width: 960px; } }
 
 .btn { display: inline-block; padding: 12px 12px 16px; border-radius: 2px; outline: none; border: 0; background-color: #2BB0ED; font-size: 17px; line-height: 1.5; font-weight: 500; line-height: 1; color: #FFF; text-decoration: none; text-align: center; cursor: pointer; }
 

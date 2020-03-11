@@ -1,0 +1,17 @@
+<div class="course-chapters">
+  <div class="course-chapters__container">
+    <h2 class="course-chapters__headline">Course chapters</h2>
+
+    <div class="course-chapters__chapters">
+      {% for chapter in site.translations[site.lang]["chapters"] %}
+        <div class="course-chapters__chapter">
+          <h3>{{ chapter["name"] }}</h3>
+
+          <div class="chapter-overview__chapter-description">
+            {{ chapter["description"] }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

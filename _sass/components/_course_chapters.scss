@@ -1,0 +1,5 @@
+.course-chapters {
+  &__container {
+    @include container;
+  }
+}

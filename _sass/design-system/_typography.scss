@@ -53,7 +53,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-display: swap;
   @include font-regular;
-  color: $grey-1;
+  color: $grey-7;
 }
 
 h1 {
@@ -69,7 +69,7 @@ h3 {
 }
 
 a {
-  color: $grey-1;
+  color: $grey-7;
 
   &:hover {
     opacity: 0.6;

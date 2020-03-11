@@ -43,6 +43,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-seo-tag
+  - jekyll-multiple-languages-plugin
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -70,3 +71,5 @@ svg:
   optimize: true
 
 baseurl: /the-art-of-content-marketing-website
+
+languages: ["en"]
