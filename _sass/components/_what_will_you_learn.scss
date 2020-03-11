@@ -1,0 +1,119 @@
+.what-will-you-learn {
+  &__container {
+    @include container;
+  }
+
+  &__headline {
+    margin-bottom: 24px;
+
+    color: $grey-7;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: $px24;
+    }
+  }
+
+  &__name {
+    display: flex;
+    margin-bottom: $px8;
+
+    color: $grey-7;
+  }
+
+  &__description {
+    color: $grey-7;
+  }
+
+  &__icon-container {
+    width: $px32;
+    height: $px32;
+    position: relative;
+    z-index: 2;
+
+    border-radius: 50%;
+
+    background-color: $teal-8;
+
+    &:before {
+      width: $px32;
+      height: $px32;
+      display: block;
+      position: absolute;
+      top: -35%;
+      left: -40%;
+      z-index: 1;
+
+      border-radius: 50%;
+
+      background-color: $blue-8;
+
+      content: "";
+    }
+
+    // &--blue-cyan {
+    //   background-color: $blue-8;
+
+    //   &:before {
+    //     background-color: $teal-8;
+    //   }
+    // }
+
+    // &--yellow-green {
+    //   background-color: $yellow-8;
+
+    //   &:before {
+    //     background-color: $green-8;
+    //   }
+    // }
+
+    // &--yellow-red {
+    //   background-color: $yellow-8;
+
+    //   &:before {
+    //     background-color: $red-8;
+    //   }
+    // }
+
+    // &--green-grey {
+    //   background-color: $green-8;
+
+    //   &:before {
+    //     background-color: $grey-8;
+    //   }
+    // }
+
+    // &--blue-red {
+    //   background-color: $blue-9;
+
+    //   &:before {
+    //     background-color: $red-9;
+    //   }
+    // }
+
+    // &--grey-cyan {
+    //   background-color: $grey-9;
+
+    //   &:before {
+    //     background-color: $teal-8;
+    //   }
+    // }
+  }
+
+  &__icon {
+    width: $px24;
+    height: $px24;
+    margin-right: $px8;
+    position: relative;
+    z-index: 2;
+  }
+
+  &__items {
+    @include breakpoint($md) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: $px24;
+    }
+  }
+}
