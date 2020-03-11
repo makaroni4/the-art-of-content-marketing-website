@@ -40,3 +40,16 @@ pricing_plans:
       - Online community group
     original_price: 275
     discounted_price: 200
+faq:
+  - question: Can I try the course for free?
+    answer: Absolutely. The first 10 lessons and exercises are free.
+  - question: Do you accept PayPal purchases?
+    answer: The Art of Content Marketing uses Gumroad to accept payment and Gumroad supports PayPal.
+  - question: Can I get an invoice?
+    answer: Absolutely! Right after purchasing you'll get a receipt which includes a link to generate an invoice with any extra information you need to add for your own accounting purposes.
+  - question: Do you have monthly subscription?
+    answer: "Nope, one time purchase allows you to access it <strong>forever</strong>. Honestly, I believe it'll take you 1-2 months to really develop this strong The Art of Content Marketing. :muscle:"
+  - question: Can I purchase The Art of Content Marketing for my team/company?
+    answer: "Sure thing! <a href='/teams'>Check out team options here</a> or shoot me an email with how many licenses do you want at <a href='mailto:hello@theartofcontentmarketing.com'>hello@theartofcontentmarketing.com</a> and I'll send you an invoice and license keys. :busts_in_silhouette:"
+  - question: What if I realize it's not for me?
+    answer: No problem! Ping me at <a href="mailto:support@theartofcontentmarketing.com">support@theartofcontentmarketing.com</a> and you'll be refunded in full, no questions asked (except feedback).

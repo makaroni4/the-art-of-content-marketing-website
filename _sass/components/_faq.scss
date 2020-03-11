@@ -1,3 +1,46 @@
 .faq {
+  padding: $px64 $px24 $px16;
 
+  @include breakpoint($md) {
+    padding: $px48;
+  }
+
+  border-radius: $px2;
+
+  background-color: $grey-9;
+
+  color: $white;
+
+  &__container {
+    @include container;
+  }
+
+  &__headline {
+    margin: 0 0 $px24;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: $px16;
+    }
+
+    @include breakpoint($md) {
+      display: flex;
+    }
+  }
+
+  &__question {
+    font-weight: 700;
+
+    @include breakpoint($md) {
+      width: 33.33%;
+      margin-right: $px16;
+    }
+  }
+
+  &__answer {
+    @include breakpoint($md) {
+      width: 66.66%;
+    }
+  }
 }

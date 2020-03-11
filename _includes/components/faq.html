@@ -1,0 +1,21 @@
+<div class="faq">
+  <div class="faq__container">
+    <h2 class="faq__headline">
+      Frequently asked questions
+    </h2>
+
+    <div class="faq__items">
+      {% for faq_item in site.translations[site.lang]["faq"] %}
+        <div class="faq__item">
+          <div class="faq__question">
+            {{ faq_item["question"] }}
+          </div>
+
+          <div class="faq__answer">
+            {{ faq_item["answer"] }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
