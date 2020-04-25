@@ -70,6 +70,6 @@ gems:
 svg:
   optimize: true
 
-baseurl: /the-art-of-content-marketing-website
+baseurl: /
 
 languages: ["en"]
